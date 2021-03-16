@@ -21,10 +21,11 @@ header h1 {
     font-size: 48px;
 }
 
+/* Changes the "SEO" latters in header according to story */
 #seo {
     color: #d9dcd6;
 }
-
+/* Main container for  navagation bar on the top of page  */
  .nav-bar {
     padding-top: 15px;
     margin-right: 20px;
@@ -37,7 +38,7 @@ header h1 {
     list-style-type: none;
     
 }
-
+/* Setting display for nav list elements to be in-line */
  .nav-bar ul li {
     display: inline-block;
     margin-left: 25px;
@@ -55,32 +56,34 @@ a {
     background-size: cover;
     background-position: center;
 }
-
+/* puts images to the left size of a div */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
 
-
+/* puts images to the right size of a div */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
 
-
+/*Main content container on the left side  */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+/* Sets all h2 in content properties*/
 
 .content h2{
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* Sets properties for the main section called benefits */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -92,8 +95,8 @@ a {
     background-color: #2589bd;
     color: #ffffff
 }
-
-.benefit summary {
+/* Properties for summary divs in benifits  making sure theres room below the div boxes */
+.benefits summary {
     margin-bottom: 32px;
 }
 
@@ -103,7 +106,7 @@ a {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* Setting all image elements with the class name "benefits-img" in benefits to be the same size  */
 .benefits-img {
     display: block;
     margin: 10px auto;
@@ -125,7 +128,7 @@ a {
     max-height: 200px;
 }
 
-
+/* Footer container at the bottom of the page */
 footer {
     padding: 30px;
     clear: both;
